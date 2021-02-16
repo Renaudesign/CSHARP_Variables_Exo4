@@ -6,7 +6,12 @@ namespace CSHARP_Variables_Exo4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string title = "Monsieur";
+            string firstname = "Vincent";
+            int nbvisites = 1;
+
+            Console.WriteLine($"Bonjour {title} {firstname}, vous êtes venu nous rendre visite {nbvisites}. Que pensez-vous de notre frigo couleur jaune de Damas ? J'ai le même à la maison");
+
         }
     }
 }
